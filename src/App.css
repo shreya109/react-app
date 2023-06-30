@@ -1,0 +1,80 @@
+.container {
+  max-width: 45%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'] {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-left: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear {
+  background-color: red;
+
+}
+
+.image {
+  width: 1px;
+  height: 1px;
+}
+
+.display-box {
+  padding: 20px;
+  background-color: #ddefda;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.display-box h2 {
+  margin-bottom: 10px;
+}
+
+.display-box p {
+  margin-bottom: 5px;
+}
+
+.display-box img {
+  max-width: 40%;
+  height: auto;
+  margin-top: 5px;
+}
